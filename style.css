@@ -29,12 +29,14 @@ h2{
 }
 
 a.font-black{
-    color: black;
+    color: black; !important 
 }
 
 
 /***************************
+
 ABOUT
+
 ****************************/
 
 #about{
@@ -82,21 +84,22 @@ ABOUT
 
 /****************************************
 
-
 PROJECT
-
 
 ****************************************/
 
 #project{
-    margin: 60px auto
-    width: 80%
+    margin: 60px auto;
+    width: 80%;
 }
 
 #project h2{
     text-align: center;
 }
 
-#project .card img{
-    width: 100%
+#project .card img {
+    width:100%;
+}
+#project .card-title{
+    font-weight: bold;
 }
